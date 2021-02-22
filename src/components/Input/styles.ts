@@ -13,14 +13,14 @@ export const Container = styled.div<ContainerProps>`
     border-radius: 10px;
     border: 2px solid #232129;
     padding: 16px;
-    width: 100%;
     color: #666360;
 
     display: flex;
+    flex:1;
     align-items: center;
 
     & + div {
-        margin-top: 18px;
+        margin-top: 10px;
     }
 
     ${(props) => props.isErrored && css`

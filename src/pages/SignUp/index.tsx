@@ -90,7 +90,7 @@ const SingUp: React.FC = () => {
 
           <Link to="/">
             <FiArrowLeft />
-            Volltar para logon
+            Voltar para o login
           </Link>
         </AnimationContainer>
       </Content>
