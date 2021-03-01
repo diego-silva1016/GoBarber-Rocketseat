@@ -43,7 +43,13 @@ const Input: React.FC<InputProps> = ({
   }, [fieldName, registerField]);
 
   return (
-    <Container style={containerStyle} isErrored={!!error} isFocused={isFocused} isField={isField}>
+    <Container
+      style={containerStyle}
+      isErrored={!!error}
+      isFocused={isFocused}
+      data-testid="input-container"
+      isField={isField}
+    >
       {Icon && <Icon size={20} />}
       <input
         name={name}
